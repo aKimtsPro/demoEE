@@ -1,4 +1,4 @@
-package be.bstorm.akimts.demoee.servlets;
+package be.bstorm.akimts.demoee.servlets.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
