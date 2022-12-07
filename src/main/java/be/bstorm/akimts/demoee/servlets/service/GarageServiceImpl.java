@@ -4,12 +4,11 @@ import be.bstorm.akimts.demoee.servlets.model.Voiture;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class GarageServiceImpl implements GarageService{
 
-
     // region singleton
-
 
     private static GarageServiceImpl instance;
     public static GarageServiceImpl getInstance(){
@@ -21,7 +20,6 @@ public class GarageServiceImpl implements GarageService{
     }
     private GarageServiceImpl() {
     }
-
 
     // endregion
 
@@ -35,5 +33,17 @@ public class GarageServiceImpl implements GarageService{
     @Override
     public List<Voiture> getAll() {
         return new ArrayList<>(list);
+    }
+
+    @Override
+    public Voiture getOne(int index) {
+        if( index < 0 || index >= list.size() )
+            throw new RuntimeException("index out bounds") ;
+
+        // - lancer une exception
+        // - return null
+        // - travailler avec un Optional vide
+
+        return list.get(index);
     }
 }

@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b74de1-db30-4a27-b19a-91978a756ac2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8b74de1-db30-4a27-b19a-91978a756ac2" name="Changes" comment="debut server html">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/GetOneServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/get_one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/model/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/model/Voiture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/service/GarageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/service/GarageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/service/GarageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/service/GarageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/AddVoitureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/AddVoitureServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/GetAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/GetAllServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/ParityServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/ParityServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/RequestInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +65,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/akimt/IdeaProjects/demoEE/src/main/resources/WEB-INF",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akimt\IdeaProjects\demoEE\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev deploy demo" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -79,7 +81,10 @@
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/demo" />
-      <option name="docBase" value="C:\Users\akimt\IdeaProjects\demoEE\src\main\resources\WEB-INF" />
+      <option name="docBase" value="C:\Users\akimt\IdeaProjects\demoEE\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/10.0.27" />
@@ -102,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670321175661</updated>
     </task>
+    <task id="LOCAL-00001" summary="debut server html">
+      <created>1670403098908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670403098908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +127,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debut server html" />
+    <option name="LAST_COMMIT_MESSAGE" value="debut server html" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

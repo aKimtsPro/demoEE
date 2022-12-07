@@ -22,20 +22,17 @@ public class GetAllServlet extends HttpServlet {
 
         PrintWriter out = resp.getWriter();
 
-
-        resp.getWriter().println("""
-                    <!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                        <meta charset="UTF-8">
-                        <title>Title</title>
-                    </head>
-                    <body>
-                                    
-                        <h1>La liste des voitures</h1>
-                                    
-                        <ul>
-                    """ );
+        resp.getWriter().println("<!DOCTYPE html>\n" +
+                "                    <html lang=\"en\">\n" +
+                "                    <head>\n" +
+                "                        <meta charset=\"UTF-8\">\n" +
+                "                        <title>Title</title>\n" +
+                "                    </head>\n" +
+                "                    <body>\n" +
+                "                                    \n" +
+                "                        <h1>La liste des voitures</h1>\n" +
+                "                                    \n" +
+                "                        <ul>");
 
         for (Voiture voiture : service.getAll()) {
             out.println("<li>["+ voiture.getId()+"] "+voiture.getMarque()+" - "+voiture.getModele()+" - "+voiture.getPrix()+" $</li>");

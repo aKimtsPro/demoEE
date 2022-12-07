@@ -30,13 +30,12 @@ public class ParityServlet extends HttpServlet {
             else {
                 resp.getWriter().print( "le nombre est impair" );
             }
-//            resp.setStatus(200); // code par defaut
+//            resp.setStatus(200); // status par défaut
         }
         catch (NumberFormatException ex){
             resp.setStatus(400);
-            resp.getWriter().print("Le paramètre n'a pas une valeur enitère, connard");
+            resp.getWriter().print("Le paramètre n'a pas une valeur entière, connard");
         }
-
 
     }
 }
