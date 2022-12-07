@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b74de1-db30-4a27-b19a-91978a756ac2" name="Changes" comment="correction  get one voiture">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/ContactServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/contact.html" afterDir="false" />
+    <list default="true" id="c8b74de1-db30-4a27-b19a-91978a756ac2" name="Changes" comment="demo webapp contents">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/voiture/get-all.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/AddVoitureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/AddVoitureServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/GetAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/demoee/servlets/servlets/GetAllServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/get_one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670411908322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="demo webapp contents">
+      <created>1670422066502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670422066502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="debut server html" />
     <MESSAGE value="correction  get one voiture" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction  get one voiture" />
+    <MESSAGE value="demo webapp contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo webapp contents" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
