@@ -35,8 +35,7 @@ public class AddVoitureServlet extends HttpServlet {
                     <h1>Ajouter une voiture</h1>
                                 
                     <form action="/demo/add" method="post">
-                                
-                                
+               
                         <div>
                             <label for="id-in">id</label><br>
                             <input type="number" name="id" id="id-in">

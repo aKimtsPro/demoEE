@@ -38,7 +38,9 @@ public class GetAllServlet extends HttpServlet {
             out.println("<li>["+ voiture.getId()+"] "+voiture.getMarque()+" - "+voiture.getModele()+" - "+voiture.getPrix()+" $</li>");
         }
 
-        out.println("</ul></body></html>");
+        out.println("</ul>" +
+                "<a href=\"/demo/contact\">vers la page de contact</a>" +
+                "</body></html>");
 
     }
 }
