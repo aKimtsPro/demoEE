@@ -1,4 +1,4 @@
-package be.bstorm.akimts.demoee.servlets.servlets;
+package be.bstorm.akimts.demoee.servlets.servlets.voiture;
 
 import be.bstorm.akimts.demoee.servlets.model.Voiture;
 import be.bstorm.akimts.demoee.servlets.service.GarageService;
